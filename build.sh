@@ -6,3 +6,4 @@ cmake -DCMAKE_BUILD_TYPE="RELEASE" -S llvm -B build -G 'Unix Makefiles' \
 
 cd build
 make -j$(getconf _NPROCESSORS_ONLN) VERBOSE=1
+make install
